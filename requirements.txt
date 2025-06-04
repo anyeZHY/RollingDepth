@@ -1,8 +1,8 @@
 torch
 torchvision
 transformers
-xformers==0.0.28.post1
+xformers
 einops
 matplotlib
-av>=13.1.0
+av
 omegaconf
