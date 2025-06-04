@@ -1,7 +1,7 @@
-torch
-torchvision
-transformers
-xformers
+torch==2.4.1
+torchvision==0.19.1
+transformers>=4.32.1
+xformers==0.0.28.post1
 einops
 matplotlib
 av
