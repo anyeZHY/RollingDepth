@@ -651,7 +651,7 @@ class RollingDepthPipeline(DiffusionPipeline):
             unet_input,
             timestep,
             encoder_hidden_states=encoder_hidden_states,
-            num_view=num_view,
+            # num_view=num_view,
         ).sample  # [(B N) 4 h w]
 
         noise_pred = einops.rearrange(
